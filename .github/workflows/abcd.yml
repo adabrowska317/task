@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-slim
     steps:
       - uses: actions/checkout@v7
-      - run: sudu apt-get update
+      - run: sudo apt-get update
       - run: sudo apt install texlive-latex-base
       - run: pdflatex notes.tex
 
