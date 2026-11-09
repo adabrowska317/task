@@ -1,0 +1,148 @@
+6dabrowska@stud30-19:~$ git clone git@github.com:adabrowska317/task.git~
+Cloning into 'task.git~'...
+fatal: remote error: 
+  is not a valid repository name
+Visit https://support.github.com/ for help
+6dabrowska@stud30-19:~$ cd task
+bash: cd: task: No such file or directory
+6dabrowska@stud30-19:~$ git clone git@github.com:adabrowska317/task.git
+Cloning into 'task'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+6dabrowska@stud30-19:~$ cd task
+6dabrowska@stud30-19:~/task$ >notes.tex
+6dabrowska@stud30-19:~/task$ git add notes.tex
+6dabrowska@stud30-19:~/task$ mkdir .github
+6dabrowska@stud30-19:~/task$ cd .github
+6dabrowska@stud30-19:~/task/.github$ mkdir workflows
+6dabrowska@stud30-19:~/task/.github$ cd workflows
+6dabrowska@stud30-19:~/task/.github/workflows$ >abcd.yml
+6dabrowska@stud30-19:~/task/.github/workflows$ nano abcd.yml
+6dabrowska@stud30-19:~/task/.github/workflows$ git add abcd.yml
+6dabrowska@stud30-19:~/task/.github/workflows$ git commit
+hint: Waiting for your editor to close the file... 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^K  I    ~/task/.git/COMMIT_EDITMSG (Modified)(git-commit)                         Row 12   Col 1   
+abcd
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#       new file:   abcd.yml
+#       new file:   ../../notes.t[Bex
+#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+File /home/stud2026/6dabrowska/task/.git/COMMIT_EDITMSG saved
+[main 8d96aee] abcd
+ 2 files changed, 22 insertions(+)
+ create mode 100644 .github/workflows/abcd.yml
+ create mode 100644 notes.tex
+6dabrowska@stud30-19:~/task/.github/workflows$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 636 bytes | 127.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:adabrowska317/task.git
+   10a9450..8d96aee  main -> main
+6dabrowska@stud30-19:~/task/.github/workflows$ nano abcd.yml
+6dabrowska@stud30-19:~/task/.github/workflows$ gnuplot
+
+	G N U P L O T
+	Version 6.0 patchlevel 2    last modified 2024-12-19 
+
+	Copyright (C) 1986-1993, 1998, 2004, 2007-2024
+	Thomas Williams, Colin Kelley and many others
+
+	gnuplot home:     http://www.gnuplot.info
+	faq, bugs, etc:   type "help FAQ"
+	immediate help:   type "help"  (plot window: hit 'h')
+
+	Terminal type is now qt
+gnuplot> x=2
+gnuplot> print x
+2
+gnuplot> reset
+gnuplot> exit
+6dabrowska@stud30-19:~/task/.github/workflows$ gnuplot
+
+	G N U P L O T
+	Version 6.0 patchlevel 2    last modified 2024-12-19 
+
+	Copyright (C) 1986-1993, 1998, 2004, 2007-2024
+	Thomas Williams, Colin Kelley and many others
+
+	gnuplot home:     http://www.gnuplot.info
+	faq, bugs, etc:   type "help FAQ"
+	immediate help:   type "help"  (plot window: hit 'h')
+
+	Terminal type is now qt
+gnuplot> a=2
+gnuplot> print a
+2
+gnuplot> plot sin(x)
+gnuplot> splot x*y*y
+gnuplot> splot (x-1)*sin(y)
+gnuplot> splot (x-1)*sin(y) with pm3d
+gnuplot> splot (x/x^3)*y^2 with pm3d
+         non-integer passed to boolean operator
+
+gnuplot> splot (1/x*x)*y*y with pm3d
+gnuplot> set xlabel "X"
+gnuplot> replot
+gnuplot> splot x*2x*y*2y
+
+gnuplot> splot x*2x*y*2y
+                  ^
+         unexpected or unrecognized token: x
+
+gnuplot> splot x*2*x*y*2*y with pm3d
+gnuplot> splot x*2*x*y*2*y with pm3d
+gnuplot> exit
+6dabrowska@stud30-19:~/task/.github/workflows$ >nowy
+6dabrowska@stud30-19:~/task/.github/workflows$ ls .github
+ls: cannot access '.github': No such file or directory
+6dabrowska@stud30-19:~/task/.github/workflows$ 
