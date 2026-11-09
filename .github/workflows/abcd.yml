@@ -4,8 +4,8 @@ jobs:
   main:
     runs-on: ubuntu-slim
     steps:
-      -uses: actions/chechout@v7
-      -run: sudu apt-get update
-      -run: sudo apt install texlive-latex-base
-      -run: pdflatex notes.tex
+      - uses: actions/chechout@v7
+      - run: sudu apt-get update
+      - run: sudo apt install texlive-latex-base
+      - run: pdflatex notes.tex
 
